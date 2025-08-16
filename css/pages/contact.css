@@ -79,3 +79,12 @@
 .mapa{
     margin: 4rem 0;
 }
+
+@media screen and (max-width: 480px) {
+    .contenedor__contacto{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+

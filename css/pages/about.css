@@ -140,8 +140,13 @@ line-height: normal;
     }
 
     .about__contenedor{
+        width: 100%;
         display: flex;
         flex-direction: column;
+    }
+    .about__descripcion, .about__contenedor__imagen, .about__contenedor__fundadora{
+        width: auto;
+        padding: 2rem;
     }
 
     .about__clientes{
@@ -153,6 +158,7 @@ line-height: normal;
         display: grid;
         grid-template-columns: 2fr;
         grid-template-rows: 2fr;
+        padding: 2rem;
     }
 
     .foto1{
