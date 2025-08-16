@@ -1,0 +1,437 @@
+body{
+    background-color:#FAFAFA;;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    background: #FAFAFA;
+}
+
+.nav__logo img{
+    width: 5.5rem;
+}
+
+.nav__menu{
+    display: flex;
+    gap: 3rem;
+}
+
+.nav__menu__hijo{
+    list-style-type: none;
+}
+
+.nav__menu__hijo a{
+    text-decoration: none;
+    font-family: var(--font-poppins);
+    color: #000;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav__menu__hijo .a-1{
+    color: #7C6A46;
+    font-weight: 700;
+}
+
+
+.nav__boton a{
+    text-decoration: none;
+    font-family: var(--font-poppins);
+    color: #FFF;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 5px;
+    background: #7C6A46;
+    padding: 1rem;
+}
+
+
+
+/* HEADER */
+ .header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#FAFAFA;;
+
+ }
+
+.header__contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    gap: 1.4rem;
+
+}
+
+.header__contenedor__nombre{
+    font-family: var(--font-dancing);
+    color: #7C6A46;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header__contenedor__titulo{
+    font-family: var(--font-raleway);
+    color: #1C1C1C;
+    font-size: 5.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header__contenedor__descripcion{
+    font-family: var(--font-raleway);  
+    color: #1C1C1C;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header__contenedor__boton a{
+    font-family: var(--font-poppins);
+    color: #FFF;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 10px;
+    background: #7C6A46;
+    padding: 1rem;
+    display: block;
+    width: 10rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.header__picture{
+    max-width: 450px;
+}
+
+.header__picture img{
+    width: 100%;
+}
+
+/* Nuestras facilidades*/
+.facilidades{
+    margin: 4rem 0;
+}
+
+.facilidades__titulo, .habitacion__titulo, .testimonio__titulo{
+    font-family: var(--font-poppins);
+    color: #000;
+    font-size: 4em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.facilidades__descripcion, .habitacion__descripcion{
+    font-family: var(--font-poppins);
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.facilidades__contenedor__grupo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border-radius: 5px;
+    background: #FAFAFA;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item .item__nombre{
+    font-family: var(--font-poppins);
+    color: #7C6A46;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* habitaciones */
+.habitacion{
+    background-color: red;
+    background-image: linear-gradient(rgba(124, 106, 70, 0.70),rgba(124, 106, 70, 0.70)), url("../../img/bg-rooms.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.habitacion__titulo, .habitacion__descripcion, .testimonio__titulo{
+    font-family: var(--font-raleway);
+}
+
+.habitacion__contenedor{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.habitacion__card {
+    width: 380px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.habitacion__card__img{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.habitacion__card > p{
+    font-family: var(--font-raleway);
+    color: #000;
+    font-size: 1.4em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* testimonios */
+
+.testimonio{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 4rem 0;
+}
+
+.testimonio__contenedor{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.testimonio__card{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(151, 150, 149, 0.9);
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.testimonio__card__fecha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.testimonio__card__opinion{
+    font-family: var(--font-raleway);
+    color: #454545;
+    text-align: justify;
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.testimonio__card__usario{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.testimonio__card__usario p, .testimonio__card__fecha p{
+    font-family: var(--font-poppins);
+    color: #454545;
+    text-align: justify;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color:#7C6A46;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.footer___paradise__titulo{
+    font-family: var(--font-dancing);
+    color: #FFF;
+    text-align: justify;
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.footer__paradise__descripcion{
+    color: #FFF;
+    font-family: var(--font-raleway);
+    text-align: justify;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer__redes, .footer__empresa, .footer__click, .footer__legal{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.footer__empresa__titulo, .footer__click__quick, .footer__legal__titulo{
+    color: #FFF;
+    text-align: justify;
+    font-family: var(--font-raleway);
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer__redes__descripcion, .footer__empresa__about, .footer__empresa__contact, .footer__empresa__support, .footer__click__location, .footer__click__seguimiento, .footer__click__guide,.footer__click__faqs, .footer__legal__terminos, .footer__legal__privacidad{
+    color: #FFF;
+    text-align: justify;
+    font-family: var(--font-raleway);
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer__redes__iconos a{
+    width: 30px;
+}
+
+
+
+/* media queries */
+@media screen and (max-width: 480px) {
+    .nav .contenedor{
+        max-width: 100%;
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 0;
+        background: #FAFAFA;
+        background-color: red;
+    }
+
+    .nav__menu{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color:#FAFAFA;;
+
+     }
+
+    .facilidades__contenedor__grupo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+}
+
+    .facilidades__contenedor__grupo .item{
+        width: 80%;
+        margin-bottom: 4rem;
+    }
+
+    .habitacion__contenedor{
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        /* align-items: center; */
+    }
+    
+    .habitacion__card{
+        width: 80%;
+        margin-bottom: 4rem;
+
+    }
+
+    .testimonio__contenedor{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 80%;
+    }
+
+    .conteiner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+    .footer__redes, .footer__empresa, .footer__click, .footer__legal{
+    width: 80%;
+    display: flex;
+    gap: .5rem;
+    }   
+
+    .footer__paradise{
+        width: 80%;
+    }
+
+}

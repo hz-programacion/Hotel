@@ -1,0 +1,14 @@
+/* FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@500;700&family=Raleway:wght@400;500;700&display=swap');
+
+
+/* MISC */
+@import url("misc/normalizacion.css");
+@import url("misc/variables.css");
+
+/* PAGINAS */
+@import url("../css/pages/home.css");
+@import url("../css/pages/explore.css");
+@import url("../css/pages/room.css");
+@import url("../css/pages/about.css");
+@import url("../css/pages/contact.css");

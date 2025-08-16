@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; /* Ahora cada EM y REM es igual a 10PX
+                         Por ejemplo: 20.8px = 2.8em        */
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}

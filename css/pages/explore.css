@@ -1,0 +1,132 @@
+.header__explore{
+    height: 85vh;
+    
+}
+
+.header__explore__video{
+    opacity: black 0.5;
+    object-fit: cover;
+}
+
+/* TOUR */
+
+.tour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.tour__titulo{
+    font-family: var(--font-raleway);
+    text-align: center;
+    color: #1C1C1C;
+    font-size: 4em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 5rem;
+}
+
+.tour__card{
+    width: 850px;
+    height: auto;
+    position: relative;
+    margin-bottom: 15rem;
+}
+
+.tour__card__picture{
+    width: inherit;
+}
+.tour__card__picture img{
+    width: inherit;
+}
+
+.tour__contenedor{
+    width: 60rem;
+    padding: 4rem;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: -70px;
+    margin: auto;
+    border-radius: 0px 0px x 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px -5px rgba(0, 0, 0, 0.15);
+}
+
+.tour__contenedor__titulo{
+    font-family: var(--font-raleway);
+    color: #7C6A46;
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.tour__contenedor__descripcion{
+    font-family: var(--font-raleway);
+    color: #000;
+    text-align: center;
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* media queries */
+@media screen and (max-width: 480px) {
+    .nav .contenedor{
+        max-width: 100%;
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 0;
+        background: #FAFAFA;
+        background-color: red;
+    }
+
+    .nav__menu{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+   .header__explore{
+    height: auto;
+    }
+
+    .header__explore__video{
+        opacity: black 0.5;
+        object-fit: cover;
+    }
+
+    /* Tour */
+    .tour{
+        display: flex;
+        flex-direction: column; 
+       }
+    
+    .tour__card{
+        width: 85%;
+        margin-bottom: 8rem;
+    }
+
+    .tour__card__picture{
+        width: 100%;
+    }
+    
+    .tour__contenedor{
+        position: relative;
+        width: 100%;
+        bottom: 0;
+    }
+
+}
